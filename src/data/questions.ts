@@ -9,15 +9,15 @@ export const questions: QuizQuestion[] = [
   // Original Questions
   {
     id: 1,
-    question: "What is the capital of France?",
-    options: ["London", "Berlin", "Paris", "Madrid"],
-    correctAnswer: "Paris",
+    question: "Which animal is the largest land mammal?",
+    options: ["Elephant", "Giraffe", "Hippopotamus", "Rhinoceros"],
+    correctAnswer: "Elephant",
   },
   {
     id: 2,
-    question: "Which planet is known as the Red Planet?",
-    options: ["Earth", "Mars", "Jupiter", "Venus"],
-    correctAnswer: "Mars",
+    question: "Which mammal is known for its black and white stripes?",
+    options: ["Tiger", "Zebra", "Panda", "Skunk"],
+    correctAnswer: "Zebra",
   },
 
   // Food Questions
@@ -73,9 +73,9 @@ export const questions: QuizQuestion[] = [
   // Animal Questions
   {
     id: 11,
-    question: "Which animal is the largest land mammal?",
-    options: ["Elephant", "Giraffe", "Hippopotamus", "Rhinoceros"],
-    correctAnswer: "Elephant",
+    question: "What is the capital of Nigeria?",
+    options: ["London", "Berlin", "Abuja", "Madrid"],
+    correctAnswer: "Abuja",
   },
   {
     id: 12,
@@ -97,9 +97,9 @@ export const questions: QuizQuestion[] = [
   },
   {
     id: 15,
-    question: "Which mammal is known for its black and white stripes?",
-    options: ["Tiger", "Zebra", "Panda", "Skunk"],
-    correctAnswer: "Zebra",
+    question: "Which planet is known as the Red Planet?",
+    options: ["Earth", "Mars", "Jupiter", "Venus"],
+    correctAnswer: "Mars",
   },
   {
     id: 16,
