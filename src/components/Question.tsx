@@ -12,7 +12,7 @@ const Question: React.FC<QuestionProps> = ({ question, onAnswer }) => {
 
   const handleOptionClick = (answer: string) => {
     setSelectedAnswer(answer);
-    onAnswer(answer); // Notify parent component of the answer
+    onAnswer(answer);
   };
 
   return (

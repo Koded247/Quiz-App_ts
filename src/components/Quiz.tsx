@@ -10,7 +10,7 @@ const Quiz: React.FC<QuizProps> = ({ onFinish }) => {
   const [currentQuestions, setCurrentQuestions] = useState<QuizQuestion[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
-  const [answered, setAnswered] = useState<boolean[]>(new Array(20).fill(false)); // Track answered questions
+  const [answered, setAnswered] = useState<boolean[]>(new Array(20).fill(false)); 
 
   useEffect(() => {
     const shuffled = [...questions].sort(() => 0.5 - Math.random());
@@ -21,7 +21,7 @@ const Quiz: React.FC<QuizProps> = ({ onFinish }) => {
     if (answer === currentQuestions[currentIndex].correctAnswer) {
       setScore(score + 1);
     }
-    // Mark this question as answered
+   
     const newAnswered = [...answered];
     newAnswered[currentIndex] = true;
     setAnswered(newAnswered);
